@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+# 4월 30일. 난 아직 살아있다.
+
 # 1. st.write 와 st.title 의 기능 
 st.write("1. As you can see, it is possible to write text above title.")
 st.title("Hello World_Title")
