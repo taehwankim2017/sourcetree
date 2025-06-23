@@ -21,7 +21,8 @@ st.write(
 # 3. st.dataframe 기능
 dataFrame_01 = pd.DataFrame(
     np.random.randn(10, 20),
-    columns=('col %d' % i for i in range(20)))
+    columns=['col %d' % i for i in range(20)]
+)
 st.write("3. Now lets see the difference between st.dataframe and st.table")
 st.dataframe(dataFrame_01.style.highlight_max(color='yellow', axis='index'))
 st.table(dataFrame_01)
